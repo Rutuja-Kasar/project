@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align:center;
+}
+header
+{
+    background-color: rgb(55,55,230);
+    color: yellow;
+    text-align: center;
+}
+header p
+{
+    padding: 2vh;
+}
+
+footer
+{
+    margin-top: auto;
+    background-color: black;
+    color: white;
+}
+footer p{
+    text-align: center;
+    padding: 2vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+
+}
